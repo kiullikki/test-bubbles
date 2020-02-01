@@ -6,7 +6,8 @@ module.exports = {
   plugins: ["@typescript-eslint", "react"],
   rules: {
     "@typescript-eslint/interface-name-prefix": [OFF],
-    '@typescript-eslint/no-unused-vars': ['error', { varsIgnorePattern: 'React' }]
+    '@typescript-eslint/no-unused-vars': ['error', { varsIgnorePattern: 'React' }],
+    'linebreak-style': ["error", "unix"]
   },
   parserOptions:  {
     ecmaVersion:  2018,
