@@ -1,0 +1,1 @@
+export { ROUTES_PATHES } from './routes';
