@@ -3,7 +3,7 @@ import { TGitMappingAction, ACTIONS_TYPES, IGitMappingStore } from '../types';
 const { GET_INITIAL } = ACTIONS_TYPES;
 
 const INITIAL_STATE: IGitMappingStore = {
-  error: null,
+  error: false,
   loading: false,
 };
 

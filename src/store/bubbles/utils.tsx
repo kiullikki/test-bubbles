@@ -1,0 +1,1 @@
+export const makeId = (): string => `id${Date.now()}`;
