@@ -1,3 +1,12 @@
-.main {
-  background-color: blueviolet;
+.bubbles__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bubbles__inner {
+  padding-left: 30px;
+}
+
+.bubbles__error {
+  color: #EB2D40;
 }

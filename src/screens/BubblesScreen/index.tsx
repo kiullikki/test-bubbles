@@ -1,1 +1,1 @@
-export { BubblesScreenView as BubblesScreen } from './screen';
+export { BubblesScreenConnect as BubblesScreen } from './screen';
